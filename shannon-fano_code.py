@@ -22,8 +22,6 @@ three = {}
 
 ensemble = dict(sorted(ensemble.items(), key=lambda item: item[1]))
 
-code =
-
 def binary_group(sub_ensemble, code):
     sub_ensemble = dict(sorted(sub_ensemble.items(), key=lambda item: item[1]))
     if len(list(sub_ensemble.values())) > 2:
